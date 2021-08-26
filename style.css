@@ -1,0 +1,295 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo_image {
+  width: 40px;
+  height: auto;
+  margin-left: 45px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  color: #1E7B7B;
+}
+nav {
+  margin-right: 45px;
+  /* background-color: blue; */
+  display: flex;
+  width: 375px;
+  justify-content: space-between;
+}
+
+#jumbotron_section {
+  /* background-color: cadetblue; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F0F0F0;
+}
+
+.left_side {
+  margin-left: 102px;
+  margin-top: 150px;
+}
+
+.profile_awal {
+  margin-right: 102px;
+  width: 410px;
+  height: auto;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome_text{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.profession {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1E7B7B;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.deskripsi {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 0;
+  width: 600px;
+}
+
+.scroll_button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 120px 0 0 0;
+}
+
+#jumbotron_section > .left_side > .scroll_button > img {
+  margin: 0 0 0 5px;
+}
+
+#about_me_section {
+  width: 100%;
+  height: 573px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #DEDBDB;
+}
+
+.above_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.subtitle {
+  margin-top: 17px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.section_title {
+  margin-bottom: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#about_me_section > .bottom_side {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  margin-top: 0;
+}
+
+.profile_kedua {
+  margin-left: 140px;
+  margin-bottom: 45px;
+  width: 344px;
+  height: auto;
+}
+
+.right_side {
+  margin: 50px 150px 0px 0px;
+}
+
+.right_side > .deskripsi {
+  margin-bottom: 0;
+  font-size: 19px;
+  font-weight: 400;
+  width: 500px;
+}
+
+.download_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #1E7B7B;
+  color: #F0F0F0;
+  border-radius: 8px;
+  width: 154px;
+  height: 43px;
+}
+
+#about_me_section > .bottom_side > .right_side > .download_button > img {
+  margin: 0 0 0 10px;
+}
+
+#services_section {
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  width: 100%;
+  height: 600px;
+}
+
+.bottom_side {
+  display: flex;
+  justify-content: space-between;
+  width: 766px;
+  height: 500px;
+  margin-top: 93px;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: #F9F9F9;
+  width: 232px;
+  height: 262px;
+}
+
+.card_title {
+  margin: 0 0 0 15px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#services_section > .bottom_side > .card > img {
+  display: flex;
+  justify-content: left;
+}
+
+.view_more_button {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1E7B7B;
+  margin: 22px 0 32px 15px;
+}
+
+#services_section > .bottom_side > .card > .view_more_button > img {
+  
+}
+
+#my_work_section {
+  background-color:#DEDBDB;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  width: 100%;
+  height: 650px;
+}
+
+#my_work_section > .bottom_side {
+  width: 1080px;
+  height: 300px;
+}
+
+#my_work_section > .bottom_side > .card {
+  width: 243px;
+  height: 243px;
+}
+
+#my_work_section > .bottom_side > .card > img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.view_more_button > a {
+  color: #1E7B7B;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: #F0F0F0;
+  width: 100%;
+  height: 226px;
+}
+
+footer > .above_side {
+  margin: 0 0 0 0;
+}
+
+.contact_icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0 0 0;
+  width: 25%;
+  height: auto;
+}
+
+footer > .contact_icon > a > img {
+  width: 28px;
+  height: 28px;
+}
+
+footer > p {
+  margin: 55px 0 25px 0;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/* #about_me_section.full_page {
+  height: 100vh;
+} */
